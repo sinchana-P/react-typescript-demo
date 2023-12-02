@@ -13,16 +13,7 @@ function App() {
 
   const nameList = [
     {
-      first: "Bruce",
-      last: "Wayne"
-    },
-    {
-      first: "Clark",
-      last: "Kent"
-    },
-    {
-      first: "Princess",
-      last: "Diana"
+      first: 
     }
   ]
 
@@ -30,7 +21,7 @@ function App() {
     <div className="App">
       <Greet name="Lily" messageCount={20} isLoggedIn={ true } />
       <Person name={personName} />
-      <PersonList names={ nameList } />
+      <PersonList />
     </div>
   );
 }

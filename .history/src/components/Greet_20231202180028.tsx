@@ -3,19 +3,11 @@ import React from 'react'
 type GreetProps = {
     name: string
     messageCount: number
-    isLoggedIn: boolean
 }
 
 export const Greet = (props: GreetProps) => {
   return (
-    <h2>
-      {
-        props.isLoggedIn
-          ? `Welcome ${props.name}! You have ${props.messageCount} unread messages`
-          : `Welcome Guest`
-      }
-      
-    </h2>
+    <h2>Hello { props.name } </h2>
   )
 }
 
@@ -27,5 +19,5 @@ export const Greet = (props: GreetProps) => {
 // 2. Type Safety
 
 // Types vs Interfaces
-// 1. use Types - for Application
-// 2. use Interfaces - for Libraries
+// 1. use Types- Application
+// 2. inter - Libraries

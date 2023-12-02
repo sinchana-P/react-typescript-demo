@@ -28,4 +28,4 @@ export const Greet = (props: GreetProps) => {
 
 // Types vs Interfaces
 // 1. use Types - for Application
-// 2. use Interfaces - for Libraries
+// 2. use Interfaces - Libraries
