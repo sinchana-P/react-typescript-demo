@@ -36,11 +36,7 @@ function App() {
       <PersonList names={nameList} />
       <Status status="success" />
       <Heading>Placeholder Text</Heading>
-      <Oscar>
-        <Heading>Oscar goes to Leonardo Dicarpio!</Heading>
-      </Oscar>
-      <Greet name="Lily" isLoggedIn={ false } />
-
+      <Oscar></Oscar>
     </div>
   );
 }

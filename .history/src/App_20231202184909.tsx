@@ -1,10 +1,7 @@
 import './App.css';
 import { Greet } from './components/Greet';
-import Heading from './components/Heading';
-import Oscar from './components/Oscar';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
-import Status from './components/Status';
 
 // Type Inference: hover on App Component: to see the return type of App Component.
 function App() {
@@ -34,13 +31,7 @@ function App() {
       <Greet name="Lily" messageCount={20} isLoggedIn={ true } />
       <Person name={personName} />
       <PersonList names={nameList} />
-      <Status status="success" />
-      <Heading>Placeholder Text</Heading>
-      <Oscar>
-        <Heading>Oscar goes to Leonardo Dicarpio!</Heading>
-      </Oscar>
-      <Greet name="Lily" isLoggedIn={ false } />
-
+      <S
     </div>
   );
 }

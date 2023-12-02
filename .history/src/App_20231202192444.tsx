@@ -39,7 +39,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leonardo Dicarpio!</Heading>
       </Oscar>
-      <Greet name="Lily" isLoggedIn={ false } />
+      <Greet name="Lily isLoggedIn={ false } />
 
     </div>
   );

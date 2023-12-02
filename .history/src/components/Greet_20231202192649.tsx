@@ -7,12 +7,12 @@ type GreetProps = {
 }
 
 export const Greet = (props: GreetProps) => {
-  const { messageCount = 0 } = props     // destructuring object & assigning a default value
+  const { messageCount = 0 } = props     // destructuring object & assigning 
   return (
     <h2>
       {
         props.isLoggedIn
-          ? `Welcome ${props.name}! You have ${messageCount} unread messages`
+          ? `Welcome ${props.name}! You have ${props.messageCount} unread messages`
           : `Welcome Guest`
       }
       
