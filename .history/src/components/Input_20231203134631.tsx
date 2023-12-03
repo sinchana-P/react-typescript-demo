@@ -11,7 +11,7 @@ export const Input = ({ value, handleChange }: InputProps) => {
         console.log(event);      
     }
     
-    return <input type='text' value={value} onChange={handleInputChange} />
+    return <input type='text' value={props.value} onChange={handleInputChange} />
 }
 
 

@@ -70,7 +70,7 @@ function App() {
     
       {/* 7. Style Props  */}
       <p>Style Props</p>
-      <Container styles={{ border: '3px solid black', padding: '1rem', color: 'blue' }} />
+      <Container styles={{ border: '3px solid black', padding: '1rem', color: 'pink' }} />
 
     
     </div>

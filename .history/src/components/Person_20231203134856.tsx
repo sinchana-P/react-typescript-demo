@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { PersonProps } from './Person.types'
 
 // type PersonProps = {
 //     name: {
@@ -11,7 +10,7 @@ import { PersonProps } from './Person.types'
 
 const Person = (props: PersonProps) => {
     return (
-        <h2>{ props.name.first }  { props.name.last }</h2>
+        <div>{ props.name.first }  { props.name.last }</div>
   )
 }
 

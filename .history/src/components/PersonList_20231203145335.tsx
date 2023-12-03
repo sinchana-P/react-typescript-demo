@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Name } from './Person.types'
+import 
 
-type PersonListProps = {
+import PersonListProps = {
     names: Name[]
 }
 

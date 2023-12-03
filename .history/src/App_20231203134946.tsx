@@ -35,31 +35,17 @@ function App() {
 
   return (
     <div className="App">
-      <p>Greet</p>
+      <p></p>
       <Greet name="Lily" messageCount={20} isLoggedIn={ true } />
-      
-      <p>Person</p>
       <Person name={personName} />
-
-      <p>PersonList</p>
       <PersonList names={nameList} />
-
-      <p>Status</p>
       <Status status="success" />
-
-      <p>Heading</p>
       <Heading>Placeholder Text</Heading>
-
-      <p>Oscar</p>
       <Oscar>
         <Heading>Oscar goes to Leonardo Dicarpio!</Heading>
       </Oscar>
-
-      <p>Greet</p>
-      <Greet name="Lily" isLoggedIn={false} />
-      
+      <Greet name="Lily" isLoggedIn={ false } />
       {/* 6. Event Props */}
-      <p>Event Props</p>
       <Button handleClick={() => {
         console.log('Button Clicked');       
       }} />
@@ -69,8 +55,7 @@ function App() {
       <Input value='' handleChange={event => console.log(event)} />
     
       {/* 7. Style Props  */}
-      <p>Style Props</p>
-      <Container styles={{ border: '3px solid black', padding: '1rem', color: 'blue' }} />
+      <Container styles={{ border: '3px solid black', padding: '1rem' }} />
 
     
     </div>
