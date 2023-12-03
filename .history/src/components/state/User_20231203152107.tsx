@@ -34,5 +34,3 @@ export const User = () => {
 // useState<AuthUser | null>(null)
 
 // Always have to check, if the object exists, before accessing it's properties.
-// user?.email
-// So, the optional chaining in applied here by typescript.
