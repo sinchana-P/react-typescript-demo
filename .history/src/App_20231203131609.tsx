@@ -8,7 +8,6 @@ import Person from './components/Person';
 import PersonList from './components/PersonList';
 import Status from './components/Status';
 import { Input } from './components/Input';
-import { Container } from './components/Container';
 
 // Type Inference: hover on App Component: to see the return type of App Component.
 function App() {
@@ -54,7 +53,7 @@ function App() {
       <Input value='' handleChange={event => console.log(event)} />
     
       {/* 7. Style Props  */}
-      <Container styles={{ border: '3px solid black', padding: '1rem' }} />
+      
 
     
     </div>

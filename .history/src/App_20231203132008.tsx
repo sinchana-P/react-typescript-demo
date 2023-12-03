@@ -54,7 +54,7 @@ function App() {
       <Input value='' handleChange={event => console.log(event)} />
     
       {/* 7. Style Props  */}
-      <Container styles={{ border: '3px solid black', padding: '1rem' }} />
+      <Container />
 
     
     </div>
