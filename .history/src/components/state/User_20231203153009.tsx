@@ -59,4 +59,4 @@ export const User = () => {
 
 // Note2:
 // If u r confident that user will be initialized soon after setup and will always have value after.
-// Then, u can use Type Assertion as done above 
+// Then, u can use Type Assertio 

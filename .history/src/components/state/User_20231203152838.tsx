@@ -34,7 +34,7 @@ export const User = () => {
 //             email: 'sinch.fsd@gmail.com'
 //         })
 //     }
-//     const handleLogout = () => {
+//     const handleLogout = () => { 
 //         setUser(null)
 //     }
     
@@ -56,7 +56,3 @@ export const User = () => {
 // Always have to check, if the object exists, before accessing it's properties.
 // user?.email
 // So, the optional chaining in applied here by typescript. as it can have value (either null or AuthUser).
-
-// Note2:
-// If u r confident that user will be initialized soon after setup and will always have value after.
-// Then, u can use Type Assertion as done above 
