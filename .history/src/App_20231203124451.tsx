@@ -7,7 +7,6 @@ import Oscar from './components/Oscar';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
 import Status from './components/Status';
-import { Input } from './components/Input';
 
 // Type Inference: hover on App Component: to see the return type of App Component.
 function App() {
@@ -50,7 +49,7 @@ function App() {
       <Button handleClick={(event, id) => {
         console.log('Button Clicked', event, id);       
       }} />
-      <Input value='' handleChange={event => console.log(event)} />
+      <In
     </div>
   );
 }

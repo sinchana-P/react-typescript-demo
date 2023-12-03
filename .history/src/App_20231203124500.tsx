@@ -50,7 +50,7 @@ function App() {
       <Button handleClick={(event, id) => {
         console.log('Button Clicked', event, id);       
       }} />
-      <Input value='' handleChange={event => console.log(event)} />
+      <Input />
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import { log } from 'console';
 import './App.css';
 import Button from './components/Button';
 import { Greet } from './components/Greet';
@@ -7,7 +6,6 @@ import Oscar from './components/Oscar';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
 import Status from './components/Status';
-import { Input } from './components/Input';
 
 // Type Inference: hover on App Component: to see the return type of App Component.
 function App() {
@@ -43,14 +41,9 @@ function App() {
         <Heading>Oscar goes to Leonardo Dicarpio!</Heading>
       </Oscar>
       <Greet name="Lily" isLoggedIn={ false } />
-      {/* 6. Event Props */}
       <Button handleClick={() => {
-        console.log('Button Clicked');       
+        
       }} />
-      <Button handleClick={(event, id) => {
-        console.log('Button Clicked', event, id);       
-      }} />
-      <Input value='' handleChange={event => console.log(event)} />
     </div>
   );
 }
